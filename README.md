@@ -30,5 +30,5 @@ def savePickle(obj, file_path):
 
 About `savePickle` function:
 - path -Str -Define a path to the pickle file you want to load it.
-- obj -data you want to save. 
+- obj -data you want to save.  
 And it will seperate into several parts and save it by chunks.
