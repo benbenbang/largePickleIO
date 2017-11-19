@@ -38,9 +38,9 @@ def loadPickle(path):
 		print(e)
 		return None
 
-def savePickle(obj, file_path):
+def savePickle(obj, path):
 	try:
-		with open(file_path, "wb") as file:
+		with open(path, "wb") as file:
 			pickle.dump(obj, largePickleIO(file), protocol=pickle.HIGHEST_PROTOCOL)
 		print('Save Sucessfully!')
 	except Exception as e:
